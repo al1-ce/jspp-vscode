@@ -14,4 +14,4 @@ Copy `jspp.plist` into `.vscode/extensions/onux.jspp-x.x.x/syntaxes/`.
 
 ### After: 
 
-<img src="https://raw.githubusercontent.com/al1-ce/jspp_vscode/master/code.png" width="75%">
+<img src="https://raw.githubusercontent.com/al1-ce/jspp_vscode/master/code.png" width="100%">
