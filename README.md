@@ -1,5 +1,4 @@
-# jspp_vscode
-## Extended JS++ VSCode syntax
+# Extended JS++ VSCode syntax
 
 Original syntax was taken from [Onux/JS++](https://github.com/onux/jspp) repo.
 
