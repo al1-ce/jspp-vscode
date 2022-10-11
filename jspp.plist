@@ -1263,7 +1263,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(if|in|do|for|new|let|else|case|with|while|break|const|yield|return|typeof|delete|switch|default|continue|debugger|instanceof|export|import|external|module|foreach|typeid|implicit|explicit)\b</string>
+					<string>\b(if|in|do|for|new|let|else|case|with|while|break|const|yield|return|typeof|delete|switch|default|continue|debugger|instanceof|export|import|external|module|foreach|typeid|implicit|explicit|context)\b</string>
 					<key>name</key>
 					<string>keyword.control.jspp</string>
 				</dict>
