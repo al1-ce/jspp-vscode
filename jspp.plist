@@ -68,6 +68,22 @@
 			<string>meta.import.jspp</string>
 			
 		 </dict>
+
+         <dict>
+             <key>captures</key>
+             <dict>
+                 <key>1</key>
+                 <dict>
+                     <key>name</key>
+                     <string>keyword.other.alias.jspp</string>
+                 </dict>
+             </dict>
+             <key>match</key>
+             <string>\b(alias)\b</string>
+             <key>name</key>
+             <string>meta.alias.jspp</string>
+          </dict>
+
 			<dict>
 			<key>begin</key>
 			<string>(^|&amp;&amp;|\|\||!)\s*(/)(?![/*+{}?])</string>
@@ -623,7 +639,7 @@
 						</dict>
 					</dict>
 					<key>match</key>
-					<string>(module|class|(?:@)?interface|enum)\s+(\w+)</string>
+					<string>(module|class|struct|(?:@)?interface|enum)\s+(\w+)</string>
 					<key>name</key>
 					<string>meta.class.identifier.jspp</string>
 				</dict>
@@ -1193,7 +1209,7 @@
 			<array>
 				<dict>
 					<key>match</key>
-					<string>[\w\$]{1}\w*(?&lt;!if|for|foreach|while|catch|switch|bool|string|byte|short|int|long|float|double|char|void|signed|unsigned|var|function|auto|return)(?=\s*?(?:&lt;.+?&gt;)?\s*?\()</string>
+					<string>[\w\$]{1}\w*(?&lt;!\bif|\bfor|\bforeach|\bwhile|\bcatch|\bswitch|\bbool|\bstring|\bbyte|\bshort|\bint|\blong|\bfloat|\bdouble|\bchar|\bvoid|\bsigned|\bunsigned|\bvar|\bfunction|\bauto|\breturn|\balias)(?=\s*?(?:&lt;.+?&gt;)?\s*?\()</string>
 					<key>name</key>
 					<string>entity.name.function.jspp</string>
 				</dict>
