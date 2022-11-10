@@ -1,9 +1,11 @@
-# Extended JS++ VSCode syntax
+# Extended JS++ VSCode syntax & Problem matcher
+## !!!Intended to use with [jsppext](https://github.com/al1-ce/jspp-compiler-extension)!!!
 
 Original syntax was taken from [Onux/JS++](https://github.com/onux/jspp) repo.
 
 ## Installation:
-Copy `jspp.plist` into `.vscode/extensions/onux.jspp-x.x.x/syntaxes/`.
+Copy `jspp.plist` into `.vscode/extensions/onux.jspp-x.x.x/syntaxes/` for improved syntax.
+Copy `package.json` into `.vscode/extensions/onux.jspp-x.x.x/` for `$jsppext` problem matcher.
 
 ## Screenshots
 
