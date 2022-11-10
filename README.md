@@ -5,6 +5,7 @@ Original syntax was taken from [Onux/JS++](https://github.com/onux/jspp) repo.
 
 ## Installation:
 Copy `jspp.plist` into `.vscode/extensions/onux.jspp-x.x.x/syntaxes/` for improved syntax.
+
 Copy `package.json` into `.vscode/extensions/onux.jspp-x.x.x/` for `$jsppext` problem matcher.
 
 ## Screenshots
