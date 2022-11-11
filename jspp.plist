@@ -83,6 +83,34 @@
              <key>name</key>
              <string>meta.alias.jspp</string>
           </dict>
+          <dict>
+              <key>captures</key>
+              <dict>
+                  <key>1</key>
+                  <dict>
+                      <key>name</key>
+                      <string>storage.modifier.async.jspp</string>
+                  </dict>
+              </dict>
+              <key>match</key>
+              <string>\b(async)\b</string>
+              <key>name</key>
+              <string>meta.function.jspp</string>
+           </dict>
+           <dict>
+               <key>captures</key>
+               <dict>
+                   <key>1</key>
+                   <dict>
+                       <key>name</key>
+                       <string>keyword.control.flow.jspp</string>
+                   </dict>
+               </dict>
+               <key>match</key>
+               <string>\b(await)\b</string>
+               <key>name</key>
+               <string>meta.function.jspp</string>
+            </dict>
 
 			<dict>
 			<key>begin</key>
