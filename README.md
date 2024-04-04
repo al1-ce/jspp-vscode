@@ -1,6 +1,8 @@
 # Extended JS++ VSCode syntax & Problem matcher
 ## !!!Intended to use with [jsppext](https://github.com/al1-ce/jspp-compiler-extension)!!!
 
+# Archived since I do not intend to work on it anymore (at least for now). See jsppext for more detail
+
 Original syntax was taken from [Onux/JS++](https://github.com/onux/jspp) repo.
 
 ## Installation:
